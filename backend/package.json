@@ -1,0 +1,21 @@
+{
+  "name": "basic_express_template",
+  "version": "1.0.0",
+  "description": "Template for backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production && node server",
+    "dev": "nodemon server"
+  },
+  "author": "raxrai",
+  "license": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
